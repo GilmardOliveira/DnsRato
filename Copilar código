@@ -1,0 +1,15 @@
+Para compilar o código dnsrato.c e o main.c no Kali Linux, siga os seguintes passos:
+
+Abra o terminal e navegue até o diretório onde os arquivos estão salvos usando o comando cd.
+
+Compile o arquivo dnsrato.c usando o comando gcc -c dnsrato.c -o dnsrato.o. Esse comando criará um arquivo objeto dnsrato.o que será usado na compilação do main.c.
+
+Compile o arquivo main.c usando o comando gcc main.c dnsrato.o -o dnsrato. Esse comando criará um arquivo executável chamado dnsrato.
+
+Agora você pode executar o programa usando o comando ./dnsrato. Certifique-se de que o arquivo rato.txt está no mesmo diretório do executável.
+
+Se você preferir compilar tudo em um único comando, você pode usar o seguinte comando:
+
+gcc dnsrato.c main.c -o dnsrato
+
+Isso irá compilar ambos os arquivos e criar um executável chamado dnsrato. Depois, basta executar o programa com ./dnsrato.
